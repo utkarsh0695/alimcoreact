@@ -1,0 +1,399 @@
+/* custome css */
+fieldset {
+  border: 1.5px solid #797be5;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px 20px 25px;
+}
+
+legend {
+  background-color: #fff;
+  color: #1d1e26;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1.5px, solid, #797be5;
+  font-weight: 400;
+  margin: -28px 0px 15px -8px;
+  width: 362px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+  legend {
+    background-color: #fff;
+    color: #1d1e26;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1.5px, solid, #797be5;
+    font-weight: 400;
+    margin: -28px 0px 15px -8px;
+    width: 230px;
+    font-size: 18px;
+}
+}
+
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  /* width: calc(100% - 22px); */
+  /* padding: 10px; */
+  /* margin-bottom: 10px; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #797be5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* .iwEsmp{
+    min-width: 900px!important;
+  }
+
+  .rdt_Table .rdt_TableBody .rdt_TableRow {
+    justify-content: left !important;
+} */
+/* 
+  .jzrolw {
+    position: relative;
+    width: 100%;
+    border-radius: inherit;
+    overflow: scroll!important;
+    min-height: 0px;
+  } */
+
+.mt-top {
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 480px) {
+  .mt-top {
+    margin-top: 10px;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d5ddf4;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d5ddf4;
+}
+
+#style-2::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #d5ddf4;
+}
+
+#style-2::-webkit-scrollbar {
+  height: 5px;
+  background-color: #F5F5F5;
+}
+
+
+/* Custom scrollbar for the entire application */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d5ddf4;
+  /* Change this to match your design */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Change this to match your design */
+  border-radius: 4px;
+}
+
+/* Apply custom scrollbar specifically to the React Data Table */
+.data-table-container {
+  overflow-x: auto;
+}
+
+.data-table-container::-webkit-scrollbar {
+  height: 8px;
+  /* Custom height for horizontal scrollbar */
+}
+
+.data-table-container::-webkit-scrollbar-thumb {
+  background-color: #d5ddf4;
+  border-radius: 4px;
+}
+
+.data-table-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.chat-box .people-list .search i {
+  position: absolute;
+  right: 10px;
+  top: 17px;
+  font-size: 14px;
+  color: #919191;
+}
+
+.chat-box .people-list .search {
+  position: relative;
+  width: 100%;
+}
+
+.exportBtn {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.bSqufN {
+  position: relative !important;
+  width: 100% !important;
+  border-radius: inherit !important;
+  overflow: auto !important;
+  min-height: 0px !important;
+  max-height: 100% !important;
+}
+
+/* i.fa:hover{
+  color: #ffffff !important;
+} */
+
+/* i.fa.active{
+  color: #7366ff!important;
+} */
+
+a.sidebar-link.sidebar-title.link-nav:hover {
+  color: #7366ff !important;
+}
+
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links>li .sidebar-link.active span:hover {
+  color: #7366ff !important;
+}
+
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links>li .sidebar-link.fa:hover {
+  color: #7366ff !important;
+}
+
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links>li .sidebar-link.active i.fa {
+  color: #7366ff !important;
+}
+
+.file>label:hover {
+  border-color: hsl(0, 0%, 21%);
+}
+
+.file>label:active {
+  background-color: hsl(0, 0%, 96%);
+}
+
+.file {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file>input[type='file'] {
+  display: none
+}
+
+.file>label {
+  font-size: 14px;
+  font-weight: 300;
+  width: 250px;
+  height: 40px;
+  cursor: pointer;
+  outline: 0;
+  user-select: none;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 29%);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file>label:hover {
+  border-color: hsl(0, 0%, 21%);
+}
+
+.file>label:active {
+  background-color: hsl(0, 0%, 96%);
+}
+
+.file>label>i {
+  padding-right: 5px;
+}
+
+.file--upload>label {
+  color: #7366ff;
+  border-color: #7366ff;
+}
+
+.file--upload>label:hover {
+  border-color: #392ccf;
+  background-color: hsl(204, 86%, 96%);
+}
+
+.file--upload>label:active {
+  background-color: hsl(204, 86%, 91%);
+}
+
+.remove-img {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.preview-img {
+  border: 1px solid rgb(115, 102, 255);
+  width: 100px;
+  height: 80px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.invalid {
+  color: rgb(232, 83, 71);
+  font-size: 11px;
+  font-style: italic;
+}
+
+.caQqyd {
+  font-size: 11.5px !important;
+}
+.dNsAGE {
+  font-size: 11.5px !important;
+}
+
+.refresh {
+  margin-left: 1320px
+}
+
+.ticketIcon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fbbc04;
+  border-radius: 50% !important;
+  text-align: center;
+}
+
+.add-stock{
+  margin-left: 970px;
+}
+
+.react-datepicker__navigation {
+  border-radius: 20px !important;
+  color: #8b8b91 !important;
+  top: 20px !important;
+  &.react-datepicker__navigation--previous {
+    left: 4px;
+  }
+  &.react-datepicker__navigation--next {
+    right: 4px;
+  }
+}
+
+.react-datepicker .react-datepicker__navigation-icon--previous::before, .react-datepicker .react-datepicker__navigation-icon--next::before {
+  border-color: #8b8b91 !important;
+}
+
+.modal .modal-header .btn-close {
+  position: absolute;
+  right: 29px!important;
+  top: 23px!important;
+}
+
+.hbotQl, .cLrkOt, .brFloq,.hmdZnu,.ddvZdT{
+  overflow: hidden;
+  white-space: initial!important;
+  text-overflow: initial!important;
+}
+
+.modal-header {
+  padding: 15px !important;
+}
+
+
+.table-scroll {
+  position: relative; /* Required for proper positioning */
+}
+.my-div {
+  overflow-x: auto; /* Allows horizontal scrolling */
+}
+.table-scroll {
+  min-width: 800px; /* Ensure table doesn't shrink too small */
+}
+.my-select-container{
+  width:150px !important;
+}
+.my-width{
+  width:150px !important;
+}
+
+.show-hide1 {
+  position: absolute;
+  top: 44px;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.form-control{
+  font-size: 13px !important;
+}
+
+.form-label {
+  font-weight: 500 !important;
+}
+
+.form-check{
+  display: flex !important;
+ align-items: center !important;
+}
+
+.form-check-input[type=radio] {
+  margin-right: 10px !important;
+}

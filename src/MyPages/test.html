@@ -1,0 +1,20 @@
+<html>
+    <head></head>
+    <title>
+        Payment
+    </title>
+    <body>
+        <form method=”POST” action=”https://api.razorpay.com/v1/checkout/embedded”>
+            <input type=”hidden” name=”key_id” value=rzp_test_tgWgOfXw8Z4eKf>
+            <input type=”hidden” name=”order_id” value=order_9A33XWu170gUtm>
+            <input type=”hidden” name=”amount” value=5000>
+           
+            <input type=”hidden” name=”name” value=HDFCCollectNow>
+            <input type=”hidden” name=”description” value=Enterdescription>
+            <input type=”hidden” name=”prefill[email]” value=gaurav.kumar@example.com>
+            <input type=”hidden” name=”prefill[contact]” value=9999999999>
+            <input type=”hidden” name=”notes[transaction_id]” value=transaction_1234>
+            <input type=”hidden” name=”callback_url” value=http://alimco.dequaeretech.in/order-success>
+            <button>Submit</button> </form>
+    </body>
+</html>

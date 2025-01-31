@@ -1,0 +1,128 @@
+{
+  "name": "alimco-admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@auth0/auth0-react": "^1.9.0",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@fullcalendar/core": "4.0.2",
+    "@fullcalendar/daygrid": "^5.11.0",
+    "@fullcalendar/interaction": "^5.11.0",
+    "@fullcalendar/react": "^5.11.1",
+    "@popperjs/core": "^2.11.8",
+    "@react-google-maps/api": "^2.10.1",
+    "axios": "^1.3.4",
+    "body-scroll-lock": "^3.1.5",
+    "bootstrap": "^5.3.3",
+    "bootstrap-scss": "^5.1.1",
+    "concurrently": "^7.1.0",
+    "crypto-js": "^4.2.0",
+    "deni-react-treeview": "^1.1.11",
+    "dotenv": "^16.4.5",
+    "easymde": "^2.16.1",
+    "emoji-mart": "^3.0.1",
+    "export-from-json": "^1.7.0",
+    "feather-icons": "^4.29.0",
+    "html2canvas": "^1.4.1",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "i18next-http-backend": "^1.4.0",
+    "json-server": "^0.17.0",
+    "jspdf": "^2.5.1",
+    "my-field-validator": "^1.1.1",
+    "react-ace": "^9.5.0",
+    "react-bootstrap": "^2.2.3",
+    "react-bootstrap-typeahead": "^5.2.2",
+    "react-ckeditor-component": "^1.1.0",
+    "react-confetti": "^6.1.0",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-countdown": "^2.3.2",
+    "react-countup": "^6.2.0",
+    "react-custom-scrollbars-2": "^4.5.0",
+    "react-data-table-component": "^7.6.2",
+    "react-datepicker": "^4.7.0",
+    "react-day-picker": "^9.1.4",
+    "react-feather": "^2.0.9",
+    "react-google-charts": "^4.0.0",
+    "react-gradient-timepicker": "^0.0.3",
+    "react-hook-form": "^7.29.0",
+    "react-i18next": "^11.16.5",
+    "react-icons": "^4.4.0",
+    "react-image-lightbox": "^5.1.4",
+    "react-range": "^1.8.12",
+    "react-rating": "^2.0.5",
+    "react-ratings-declarative": "^3.4.1",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.0",
+    "react-select": "^5.3.0",
+    "react-simplemde-editor": "^5.0.2",
+    "react-slick": "^0.28.1",
+    "react-sparklines": "^1.7.0",
+    "react-timekeeper": "^2.1.3",
+    "react-to-print": "^2.14.6",
+    "react-toastify": "^8.2.0",
+    "react-transition-group": "^4.4.2",
+    "react-use": "^17.5.1",
+    "react-vertical-timeline-component": "^3.5.2",
+    "reactstrap": "^9.2.3",
+    "sass": "^1.57.0",
+    "socket.io-client": "^4.7.5",
+    "to-words": "^4.1.0",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts --max_old_space_size=28096 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --fix --ext .js,.jsx .",
+    "json-serve": "node public/server.js",
+    "start-developer": "concurrently \"react-scripts start\" \"node public/server.js\""
+  },
+  "resolutions": {
+    "react-dev-utils": "10.0.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "plugins": [
+      "jsx-a11y"
+    ],
+    "rules": {
+      "no-whitespace-before-property": "off",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "off"
+    },
+    "overrides": [
+      {
+        "files": [
+          "*-index.js"
+        ],
+        "rules": {
+          "no-unused-expressions": "off"
+        }
+      }
+    ],
+    "reportUnusedDisableDirectives": true,
+    "noInlineConfig": false
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "moment": "^2.29.2",
+    "moment-timezone": "^0.5.34",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
